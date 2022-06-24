@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+.heder {
+  text-align: center;
+}
+
+.appContainer {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.listOfItems {
+  text-align: center;
+  background-color: white;
+  color: #282c34;
+}
+
+.listOfItems p {
+  margin: 0;
+  color: #282c34;
+}
+
+.listOfItems span {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: 0.3px solid rgba(128, 128, 128, 0.482);
+}
+.title {
+  background-color: #282c347c;
+  color: white;
+}
+
+.nameIntheTable {
+  color: red;
+  width: 60%;
+}
+
+.listOfItems span.name,
+.textInput {
+  width: 60%;
+  padding: 10px 0px;
+}
+.listOfItems span.age,
+.ageInput {
+  width: 30%;
+  padding: 10px 0px;
+}
+span.X,
+span.X:hover {
+  color: red;
+  cursor: pointer;
+}
+.listOfItems span.add,
+.submitInput,
+.submitInput:hover {
+  width: 10%;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+
+.addItemsInputs {
+  text-align: center;
+  margin: 0px;
 }
